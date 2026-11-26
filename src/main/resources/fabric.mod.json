@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "creatorshq",
+  "version": "${version}",
+  "name": "CREATORS HQ MASTER MOD",
+  "description": "One unified creator toolkit: Easy Announce, Armour Trim & Ore Customiser, Easy TP, Easy Gamemode, Easy Enchant, Easy Give and Easy Potions behind one dashboard.",
+  "authors": ["Priyanshu1lyt", "NotHeartYT", "Praveen_god_67", "Nebrion_Verse"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.creatorshq.master.client.CreatorsHqClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
